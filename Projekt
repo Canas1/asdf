@@ -27,8 +27,8 @@ public string Palindrom(string[] ord, bool längst)
     längd[i] = palindromen.Length;
   }
 
-  int max = längd.Max(); // Integer för att hitta längsta ordet.
-  int min = längd.Min(); // Integer för att hitta kortaste ordet.
+  int max = längd.Max(); // Integer för längsta ordet.
+  int min = längd.Min(); // Integer för kortaste ordet.
   string resultat = "";
 
   if (längst)
