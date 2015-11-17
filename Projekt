@@ -21,7 +21,7 @@ public string Palindrom(string[] ord, bool längst)
   string[] allaPalindrom = palindromer.Split(); // Lägger alla palindrom i en array.
   int[] längd = new int[allaPalindrom.Length]; // Array för hur långa de olika palindromen är.
 
-  for (int i = 0; i < allaPalindrom.Length; i++)
+  for (int i = 0; i < allaPalindrom.Length; i++) // Hittar längden på alla palindrom och lägger dom i en array.
   {
     palindromen = allaPalindrom[i];
     längd[i] = palindromen.Length;
